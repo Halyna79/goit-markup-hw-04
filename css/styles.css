@@ -92,7 +92,7 @@ img {
     letter-spacing: 0.02em;
     color: #404bbf;
     position: relative;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .active::after {
@@ -124,7 +124,7 @@ img {
     display: flex;
     align-items: center;
     gap: 40px;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .adress-link-contacs {
@@ -135,7 +135,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .adress-link-contacs:focus {
@@ -193,7 +193,7 @@ img {
     margin-right: auto;
     margin-left: auto;
     border: none;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list-button:focus {
@@ -340,7 +340,7 @@ img {
     justify-content: center;
     flex-direction: row;
     gap: 24px;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-icon:hover {
@@ -448,7 +448,7 @@ img {
     width: 100%;
     padding: 40px 32px;
     transform: translateY(100%);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-cover-text {
@@ -464,6 +464,7 @@ img {
 
 .footer-container {
     display: block;
+    margin-right: 120px;
     
 }
 
@@ -501,7 +502,6 @@ img {
 .footer .container {
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
 }
 
 .footer-link {
@@ -528,7 +528,7 @@ img {
 .footer-icons {
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
